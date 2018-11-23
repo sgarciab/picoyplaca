@@ -9,7 +9,7 @@ import main.java.ec.santiagogarcia.picoyplaca.plate.LastDigitPlateEnum;
 import main.java.ec.santiagogarcia.picoyplaca.plate.Plate;
 import main.java.ec.santiagogarcia.picoyplaca.plate.PlateInt;
 
-class PlateSpec {
+class PlateTest {
 	
 	private PlateInt plate;
 

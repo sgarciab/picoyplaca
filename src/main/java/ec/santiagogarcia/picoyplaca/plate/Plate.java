@@ -22,16 +22,19 @@ public class Plate implements PlateInt {
 		this.plate = plate;
 	}
 	
+	@Override
 	public void validate()  {
 		if (!this.isValid()) {
 			this.throwNotValidPlate();
 		}
 	}
 	
+	@Override
 	public Boolean isValid() {
 		return this.plate.matches(PATTERN_PLATE);
 	}
 	
+	@Override
 	public LastDigitPlateEnum lastDigit() {
 		if (this.isValid()) {
 			String lastdigit = this.plate.substring(this.plate.length()-1);

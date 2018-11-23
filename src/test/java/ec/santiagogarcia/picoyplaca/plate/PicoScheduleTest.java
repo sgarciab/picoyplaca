@@ -12,7 +12,7 @@ import main.java.ec.santiagogarcia.picoyplaca.pico.PicoScheduleInt;
 import main.java.ec.santiagogarcia.picoyplaca.plate.Plate;
 import main.java.ec.santiagogarcia.picoyplaca.plate.PlateInt;
 
-class PicoScheduleSpec {
+class PicoScheduleTest {
 
 	private PicoScheduleInt picoSchedule;
 	private PlateInt plate;

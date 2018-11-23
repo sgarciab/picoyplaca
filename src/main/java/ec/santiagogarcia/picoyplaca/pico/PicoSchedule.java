@@ -26,6 +26,7 @@ public class PicoSchedule implements PicoScheduleInt {
 		
 	}
 	
+	@Override
 	public Boolean isAllowedToBeOnTheRoad() {
 		DayOfWeek dayOfWeekFromDate = this.date.getDayOfWeek();
 		DayOfWeek dayOfWeekForbbidenForPlate = this.getDayOfWeekFromPlate();
