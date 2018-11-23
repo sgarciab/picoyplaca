@@ -1,20 +1,20 @@
 package main.java.ec.santiagogarcia.picoyplaca.pico;
 
-import java.time.LocalDate;
+import java.time.LocalTime;
 
 public enum TimeRulesEnum {
-	 START_MORNING(LocalDate.parse("07:00")), END_MORNING(LocalDate.parse("09:30")), 
-	 START_NIGHT(LocalDate.parse("16:00")), END_NIGHT(LocalDate.parse("19:30"));
+	 START_MORNING(LocalTime.parse("07:00")), END_MORNING(LocalTime.parse("09:30")), 
+	 START_NIGHT(LocalTime.parse("16:00")), END_NIGHT(LocalTime.parse("19:30"));
 
-	   private LocalDate digit;
+	   private LocalTime digit;
 
-	   public LocalDate getDay() {
+	   public LocalTime getDay() {
 
 	       return this.digit;
 
 	   }
 
-	   TimeRulesEnum(LocalDate digit) {
+	   TimeRulesEnum(LocalTime digit) {
 
 	           this.digit = digit;
 
